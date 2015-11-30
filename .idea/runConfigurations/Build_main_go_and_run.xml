@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Build main.go and run" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="true">
+    <module name="sample" />
+    <working_directory value="$PROJECT_DIR$/" />
+    <filePath value="$PROJECT_DIR$/main.go" />
+    <kind value="PACKAGE" />
+    <package value="sample" />
+    <method />
+  </configuration>
+</component>
