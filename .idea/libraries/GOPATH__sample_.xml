@@ -117,7 +117,9 @@
       <root url="file://$PROJECT_DIR$/../golang.org/x/tools/cmd/cover/testdata" />
       <root url="file://$PROJECT_DIR$/../golang.org/x/tools/.git" />
       <root url="file://$PROJECT_DIR$/../9fans.net/go/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/soveran/redisurl/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/shiena/ansicolor/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/chuckpreslar/emission/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/codegangsta/gin/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/revel/revel/testdata" />
       <root url="file://$PROJECT_DIR$/../github.com/revel/samples/.git" />

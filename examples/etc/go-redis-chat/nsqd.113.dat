@@ -1,0 +1,1 @@
+{"topics":[{"channels":[{"name":"nsq_to_file","paused":false}],"name":"test","paused":false},{"channels":[{"name":"sample","paused":false}],"name":"sample","paused":false}],"version":"0.3.6"}
