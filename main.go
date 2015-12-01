@@ -28,7 +28,6 @@ func StartWorkers() {
 
 func StartGin() {
 	gin.SetMode(gin.ReleaseMode)
-
 	router := gin.New()
 	router.Use(rateLimit, gin.Recovery())
 	router.LoadHTMLGlob("resources/*.templ.html")
@@ -37,6 +36,14 @@ func StartGin() {
 	router.GET("/room/:roomid", roomGET)
 	router.POST("/room-post/:roomid", roomPOST)
 	router.GET("/stream/:roomid", streamRoom)
+
+
+
+
+
+
+
+
 
 	router.Run(":8000")
 }
