@@ -28,6 +28,13 @@ func main() {
 	col := db.C("people")
 	col.Insert(ritsu)
 
+		r := &Person{
+		Name: "田井中律",
+		Age:  17,
+	}
+	cola := db.C("people")
+	cola.Insert(r)
+
 	/**
 	 * みつけるところ
 	**/

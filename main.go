@@ -6,7 +6,10 @@ import (
 	"sample/controllers"
 	"sample/core/authentication"
 	"sample/settings"
+	"sample/user_controllers"
 	"time"
+
+	"gopkg.in/mgo.v2"
 
 	"github.com/gin-gonic/gin"
 )
@@ -47,9 +50,18 @@ func StartGin() {
 	router.GET("/", MyBenchLogger(), index)
 	router.GET("/auth", authentication.RequireTokenAuthentication(), index)
 	router.POST("/test", controllers.Login)
-	router.GET("/room/:roomid", roomGET)
+	router.GET("/room/:name", roomGET)
 	router.POST("/room-post/:roomid", roomPOST)
 	router.GET("/stream/:roomid", streamRoom)
+
+	//mongodb user create
+	uc := user_controllers.NewUserController(getSession())
+	router.GET("/user", uc.GetUser)
+	router.GET("/message", uc.GetMessage)
+	router.POST("/message", uc.CreateMessage)
+	router.POST("/user", uc.CreateUser)
+	router.DELETE("/user/:id", uc.RemoveUser)
+
 	router.Run(":5001")
 
 }
@@ -69,4 +81,18 @@ func MyBenchLogger() gin.HandlerFunc {
 		fmt.Println(latency)
 
 	}
+}
+
+// getSession creates a new mongo session and panics if connection error occurs
+func getSession() *mgo.Session {
+	// Connect to our local mongo
+	s, err := mgo.Dial("mongodb://localhost")
+
+	// Check if connection error, is mongo running?
+	if err != nil {
+		panic(err)
+	}
+
+	// Deliver session
+	return s
 }

@@ -20,7 +20,7 @@ var (
 )
 
 func main() {
-	session, err := mgo.Dial("mongodb://localhost/test2")
+	session, err := mgo.Dial("mongodb://localhost/mgo3")
 	if err != nil {
 		panic(err)
 	}
@@ -38,7 +38,7 @@ func main() {
 	}
 
 	// Collection People
-	c := session.DB("test").C("people")
+	c := session.DB("mgo3").C("people")
 
 	// Index
 	index := mgo.Index{
@@ -86,21 +86,21 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-
-	// Push a item to the Array in the Collection by Collection's ObjectId
-	idQueryier := bson.ObjectIdHex("52b298f8b6bb960ff805ef3b")
-	achange := bson.M{"$push": bson.M{"sections": bson.M{"name": "office"}}}
-	err = c.Update(idQueryier, achange)
-	if err != nil {
-		panic(err)
-	}
-
-	// Query All
-	err = c.Find(bson.M{"name": "Ale"}).Sort("-timestamp").All(&results)
-
-	if err != nil {
-		panic(err)
-	}
-	fmt.Println("Results All: ", results)
+//
+//	// Push a item to the Array in the Collection by Collection's ObjectId
+//	idQueryier := bson.ObjectIdHex("52b298f8b6bb960ff805ef3b")
+//	achange := bson.M{"$push": bson.M{"sections": bson.M{"name": "office"}}}
+//	err = c.Update(idQueryier, achange)
+//	if err != nil {
+//		panic(err)
+//	}
+//
+//	// Query All
+//	err = c.Find(bson.M{"name": "Ale"}).Sort("-timestamp").All(&results)
+//
+//	if err != nil {
+//		panic(err)
+//	}
+//	fmt.Println("Results All: ", results)
 
 }

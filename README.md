@@ -18,7 +18,15 @@ https://www.nicolasmerouze.com/how-to-render-json-api-golang-mongodb/
 http://txt.fliglio.com/2014/07/restful-microservices-in-go-with-gin/
 
 
+
+#Library References
 https://github.com/jinzhu/gorm#associations
 https://github.com/gin-gonic/gin
 https://github.com/codegangsta/negroni
 https://github.com/gorilla/mux
+http://blog.golang.org/json-and-go
+
+
+
+#Security
+https://gist.github.com/cyx/55d0faf5df60daedae44

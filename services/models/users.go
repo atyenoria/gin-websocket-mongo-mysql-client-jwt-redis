@@ -5,3 +5,8 @@ type User struct {
 	Username string `json:"username" form:"username"`
 	Password string `json:"password" form:"password"`
 }
+
+type Message struct {
+	Title    string `json:"title" form:"title"`
+	Username string `json:"username" form:"username"`
+}
