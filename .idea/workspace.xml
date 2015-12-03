@@ -2,16 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70195d25-8752-4cb2-870b-3dc503740b81" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/etc/mgo/1-1.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/etc/mgo/2-1.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/etc/mgo/2.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/etc/mgo/3.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/echo" afterPath="$PROJECT_DIR$/examples/echo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/assets/images/agsquare.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/assets/images/agsquare_@2X.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/assets/images/simple_dashed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/assets/images/simple_dashed_@2X.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.env" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/parameters/auth.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/auth_controller.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/hello_controller.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/authentication/jwt_backend.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/authentication/middlewares.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/redis/redis_cli.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routers/authentication.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routers/hello.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routers/router.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/auth_service.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/models/users.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings/keys/private_key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings/keys/public_key.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings/pre.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings/prod.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings/settings.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings/tests.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/assets.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/assets/css/screen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/assets/js/glue.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/assets/js/uploadView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/errors.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/index.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/router.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/templates.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/templates/index.html.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/templates/layout.html.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/templates/uploadView.html.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/upload.go" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/beego" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/echo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/etc/code" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/etc/emission/1.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/etc/glue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/etc/go-redis-chat/main.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/etc/go-redis-chat/nsqd.113.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/etc/go-socket.io" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/etc/gobyexample" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/etc/jwt/jwt.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/etc/mgo/1-1.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/etc/mgo/1.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/etc/mgo/2-1.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/etc/mgo/2.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/etc/mgo/3.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/etc/redis-websocket-emission/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/etc/redis-websocket-emission/main.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/etc/taillachat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/etc/test/1.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/etc/tonesa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/etc/websocket-gin/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/etc/websocket-gin/websocket-gin.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/etc/working-with-go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/gorilla-websocket-examples/autobahn/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/gorilla-websocket-examples/autobahn/fuzzingclient.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/gorilla-websocket-examples/autobahn/server.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/gorilla-websocket-examples/chat/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/gorilla-websocket-examples/chat/chat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/gorilla-websocket-examples/chat/conn.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/gorilla-websocket-examples/chat/debug" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/gorilla-websocket-examples/chat/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/gorilla-websocket-examples/chat/hub.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/gorilla-websocket-examples/chat/main.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/gorilla-websocket-examples/command/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/gorilla-websocket-examples/command/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/gorilla-websocket-examples/command/main.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/gorilla-websocket-examples/command/testfile.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/gorilla-websocket-examples/echo/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/gorilla-websocket-examples/echo/client.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/gorilla-websocket-examples/echo/server.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/gorilla-websocket-examples/filewatch/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/gorilla-websocket-examples/filewatch/main.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/martini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/revel" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/GOPATH__sample_.xml" afterPath="$PROJECT_DIR$/.idea/libraries/GOPATH__sample_.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/debug-tools/playgroud.go" afterPath="$PROJECT_DIR$/debug-tools/playgroud.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes.go" afterPath="$PROJECT_DIR$/routes.go" />
     </list>
     <ignored path="sample.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,58 +106,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="router.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/api/router.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="message.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/api/message.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/etc/go-redis-chat/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/cmd/tonesad/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="60" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5401662">
-              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jwt.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/etc/jwt/jwt.go">
+      <file leaf-file-name="todo_resource.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go-todo/service/todo_resource.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+              <folding>
+                <element signature="e#17#129#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../github.com/jinzhu/gorm/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth_controller.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/auth_controller.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go-todo/api/todo.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.36144578">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go-todo/api/error.go">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -92,42 +181,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="router.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../github.com/hjr265/tonesa/ui/router.go">
+      <file leaf-file-name="patch.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go-todo/api/patch.go">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes.go">
+      <file leaf-file-name="helper.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go-todo/client/helper.go">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+              <folding>
+                <element signature="e#16#100#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hub.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/hub/hub.go">
+      <file leaf-file-name="todo_client.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go-todo/client/todo_client.go">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="105" column="19" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="errors.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/api/errors.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding>
+                <element signature="e#16#66#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,24 +231,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/debug-tools/terminal.sh" />
-        <option value="$PROJECT_DIR$/debug-tools/boot.sh" />
-        <option value="$PROJECT_DIR$/routes.go" />
-        <option value="$PROJECT_DIR$/debug-tools/filepath.sh" />
-        <option value="$PROJECT_DIR$/examples/gorilla-websocket-examples/command/main.go" />
-        <option value="$PROJECT_DIR$/examples/gorilla-websocket-examples/chat/conn.go" />
-        <option value="$PROJECT_DIR$/examples/gorilla-websocket-examples/chat/main.go" />
-        <option value="$PROJECT_DIR$/examples/gorilla-websocket-examples/chat/hub.go" />
-        <option value="$PROJECT_DIR$/examples/etc/websocket-gin.go" />
-        <option value="$PROJECT_DIR$/examples/etc/index.html" />
-        <option value="$PROJECT_DIR$/examples/echo/recipes/jwt-authentication/token/token.go" />
-        <option value="$PROJECT_DIR$/examples/etc/jwt/jwt.go" />
-        <option value="$PROJECT_DIR$/examples/etc/redis-websocket-emission/main.go" />
-        <option value="$PROJECT_DIR$/examples/etc/go-redis-chat/main.go" />
         <option value="$PROJECT_DIR$/examples/etc/redis-websocket-emission/index.html" />
         <option value="$PROJECT_DIR$/debug-tools/playgroud.go" />
         <option value="$PROJECT_DIR$/examples/etc/taillachat/models/user.go" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/examples/etc/mgo/2.go" />
         <option value="$PROJECT_DIR$/examples/etc/mgo/1.go" />
         <option value="$PROJECT_DIR$/examples/etc/mgo/2-1.go" />
@@ -177,7 +245,43 @@
         <option value="$PROJECT_DIR$/examples/etc/tonesa/cmd/tonesad/main.go" />
         <option value="$PROJECT_DIR$/examples/etc/tonesa/ui/assets/js/glue.js" />
         <option value="$PROJECT_DIR$/examples/etc/go-socket.io/example/main.go" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/examples/etc/glue/sample/Channels/main.go" />
+        <option value="$PROJECT_DIR$/examples/etc-api/golang-jwt-authentication-api-sample/server.go" />
+        <option value="$PROJECT_DIR$/examples/etc-api/golang-jwt-authentication-api-sample/services/auth_service.go" />
+        <option value="$PROJECT_DIR$/examples/etc-api/golang-jwt-authentication-api-sample/provision/vars.yml" />
+        <option value="$PROJECT_DIR$/examples/etc-api/golang-jwt-authentication-api-sample/routers/router.go" />
+        <option value="$PROJECT_DIR$/examples/etc-api/golang-jwt-authentication-api-sample/controllers/auth_controller.go" />
+        <option value="$PROJECT_DIR$/examples/etc-api/golang-jwt-authentication-api-sample/routers/hello.go" />
+        <option value="$PROJECT_DIR$/examples/etc-api/golang-jwt-authentication-api-sample/settings/prod.json" />
+        <option value="$PROJECT_DIR$/examples/etc-api/golang-jwt-authentication-api-sample/settings/pre.json" />
+        <option value="$PROJECT_DIR$/../github.com/dgrijalva/jwt-go/token.go" />
+        <option value="$PROJECT_DIR$/examples/etc-api/golang-jwt-authentication-api-sample/core/authentication/middlewares.go" />
+        <option value="$PROJECT_DIR$/examples/etc-api/golang-jwt-authentication-api-sample/routers/authentication.go" />
+        <option value="$PROJECT_DIR$/examples/etc-api/golang-jwt-authentication-api-sample/core/authentication/jwt_backend.go" />
+        <option value="$PROJECT_DIR$/../github.com/gin-gonic/gin/mode.go" />
+        <option value="$PROJECT_DIR$/rooms.go" />
+        <option value="$PROJECT_DIR$/setting.go" />
+        <option value="$PROJECT_DIR$/settings/settings.go" />
+        <option value="$PROJECT_DIR$/settings.go" />
+        <option value="$PROJECT_DIR$/routes.go" />
+        <option value="$PROJECT_DIR$/services/auth_service.go" />
+        <option value="$PROJECT_DIR$/core/authentication/jwt_backend.go" />
+        <option value="$PROJECT_DIR$/settings/prod.json" />
+        <option value="$PROJECT_DIR$/settings/pre.json" />
+        <option value="$PROJECT_DIR$/core/authentication/middlewares.go" />
+        <option value="$PROJECT_DIR$/core/redis/redis_cli.go" />
+        <option value="$PROJECT_DIR$/controllers/auth_controller.go" />
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/examples/etc-api/go-todo/update_test.go" />
+        <option value="$PROJECT_DIR$/examples/etc/yaml.go" />
+        <option value="$PROJECT_DIR$/examples/etc/cli.go" />
+        <option value="$PROJECT_DIR$/go-todo/cmd/server/server.go" />
+        <option value="$PROJECT_DIR$/go-todo/cmd/todo/todo_cli.go" />
+        <option value="$PROJECT_DIR$/go-todo/service/service.go" />
+        <option value="$PROJECT_DIR$/go-todo/client/todo_client.go" />
+        <option value="$PROJECT_DIR$/go-todo/service/todo_resource.go" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -211,7 +315,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches">
+        <subPane />
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Changed Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -244,7 +377,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
+              <option name="myItemId" value="go-todo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -258,33 +391,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
+              <option name="myItemId" value="go-todo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="etc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="etc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tonesa" />
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -298,15 +409,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="etc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tonesa" />
+              <option name="myItemId" value="go-todo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -314,7 +417,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tonesad" />
+              <option name="myItemId" value="todo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,13 +431,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="debug-tools" />
+              <option name="myItemId" value="go-todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go-todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go-todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -346,45 +506,46 @@
     <property name="last_opened_file_path" value="/usr/local/Cellar/go/1.5.1/libexec" />
     <property name="go.libraries.notification.had.been.shown" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="ToolWindowDebug.ShowToolbar" value="false" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="editor.config.accepted" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../github.com/hjr265" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/examples/etc-websocket" />
       <recent name="$PROJECT_DIR$/examples" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Single File.go run 1.go (1)">
-    <configuration default="false" name="go run 1.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+  <component name="RunManager" selected="Go Application.Build cli.go and run">
+    <configuration default="false" name="Build main.go and run (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="sample" />
       <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/examples/etc/mgo/1.go" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <kind value="FILE" />
       <method />
     </configuration>
-    <configuration default="false" name="go run 2.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+    <configuration default="false" name="Build main.go and run (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="sample" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/examples/etc/mgo/2.go" />
+      <working_directory value="$PROJECT_DIR$/examples/etc-api/golang-jwt-authentication-api-sample/" />
+      <filePath value="$PROJECT_DIR$/examples/etc-api/golang-jwt-authentication-api-sample/main.go" />
+      <kind value="FILE" />
       <method />
     </configuration>
-    <configuration default="false" name="go run 3.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+    <configuration default="false" name="go run yaml.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="sample" />
       <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/examples/etc/mgo/3.go" />
+      <filePath value="$PROJECT_DIR$/examples/etc/yaml.go" />
       <method />
     </configuration>
-    <configuration default="false" name="go run 1-1.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+    <configuration default="false" name="Build cli.go and run" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="sample" />
       <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/examples/etc/mgo/1-1.go" />
-      <method />
-    </configuration>
-    <configuration default="false" name="go run 1.go (1)" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="sample" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/examples/etc/emission/1.go" />
+      <filePath value="$PROJECT_DIR$/examples/etc/cli.go" />
+      <kind value="FILE" />
       <method />
     </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -396,6 +557,11 @@
       <option name="PARAMETERS" value="" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoAppEngineRunConfiguration" factoryName="Go App Engine">
+      <module name="sample" />
+      <working_directory value="$PROJECT_DIR$/" />
       <method />
     </configuration>
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
@@ -540,21 +706,19 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="6">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Go Application.Build main.go and run" />
-      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run 1.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run 2.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run 3.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run 1-1.go" />
-      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run 1.go (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Go Application.Build main.go and run (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Go Application.Build main.go and run (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run yaml.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Application.Build cli.go and run" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run 1.go (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run 3.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run 2.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run 1-1.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run 1.go" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Go Application.Build cli.go and run" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run yaml.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Application.Build main.go and run (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Go Application.Build main.go and run (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -571,27 +735,36 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21527778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2777778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.210199" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28731343" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.083333336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2917903" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -609,328 +782,69 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/routes.go</url>
-          <line>29</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/examples/etc-websocket/tonesa/hub/hub.go</url>
+          <line>62</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="21" />
+      <option name="time" value="46" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../github.com/garyburd/redigo/redis/pubsub.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17396908">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/desertbit/glue/socket.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27448454">
-          <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.5.1/libexec/src/sync/rwmutex.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28994846">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="e#174#209#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/hjr265/tonesa/data/amzs3.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15463917">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/AdRoll/goamz/aws/aws.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33247423">
-          <caret line="381" column="5" selection-start-line="381" selection-start-column="5" selection-end-line="381" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.5.1/libexec/src/flag/flag.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33247423">
-          <caret line="697" column="5" selection-start-line="697" selection-start-column="5" selection-end-line="697" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/hjr265/tonesa/data/mongodb.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34793815">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/hjr265/tonesa/ui/assets.go">
+    <entry file="file://$PROJECT_DIR$/services/models/users.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/hjr265/tonesa/api/router.go">
+    <entry file="file://$PROJECT_DIR$/settings/keys/private_key">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/ui/templates/uploadView.html.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9814814">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/ui/templates/index.html.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.777778">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/ui/templates/layout.html.tpl">
+    <entry file="file://$PROJECT_DIR$/settings/keys/public_key.pub">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/data/amzs3.go">
+    <entry file="file://$PROJECT_DIR$/settings/prod.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="4" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/desertbit/glue/server.go">
+    <entry file="file://$PROJECT_DIR$/stats.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-          <folding />
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/hjr265/tonesa/hub/hub.go">
+    <entry file="file://$PROJECT_DIR$/settings/pre.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="114" column="12" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
-          <folding />
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/gorilla-websocket-examples/chat/main.go">
+    <entry file="file://$PROJECT_DIR$/routers/hello.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="14" column="77" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/gorilla-websocket-examples/chat/hub.go">
+    <entry file="file://$PROJECT_DIR$/core/authentication/jwt_backend.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <element signature="e#189#201#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/gorilla-websocket-examples/chat/conn.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/test/1.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/go-socket.io/handler.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/go-socket.io/example/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/ui/errors.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/ui/assets/js/glue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="141" column="15" selection-start-line="141" selection-start-column="15" selection-end-line="141" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/glue/TODO.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/glue/socket.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/ui/upload.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/ui/templates.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/ui/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/ui/index.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/ui/assets.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/cmd/tonesad/env.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/ui/assets/js/glue.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/ui/assets/js/uploadView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="125" column="21" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/data/blob.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/data/kind.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/data/upload.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/data/mongodb.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/data/message.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/api/upload.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="38" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="38" />
+          <caret line="138" column="40" selection-start-line="138" selection-start-column="35" selection-end-line="138" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -938,28 +852,126 @@
     <entry file="file://$PROJECT_DIR$/rooms.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stats.go">
+    <entry file="file://$PROJECT_DIR$/controllers/hello_controller.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/authentication.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/parameters/auth.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/auth_service.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#18#174#0" expanded="false" />
+            <element signature="n#!!block;n#Login#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/api/errors.go">
+    <entry file="file://$PROJECT_DIR$/core/authentication/middlewares.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="e#24#117#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/redis/redis_cli.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-todo/README.md">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-todo/delete_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-todo/get_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#14#86#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-todo/update_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#131#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/etc-api/golang-jwt-authentication-api-sample/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
@@ -967,23 +979,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/api/router.go">
+    <entry file="file://$PROJECT_DIR$/../gopkg.in/yaml.v2/yaml.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="10" />
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/api/message.go">
+    <entry file="file://$PROJECT_DIR$/examples/etc/yaml.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="e#14#80#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/codegangsta/cli/help.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/go-redis-chat/main.go">
+    <entry file="file://$PROJECT_DIR$/../github.com/codegangsta/cli/command.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/codegangsta/cli/app.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="e#13#63#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/etc/cli.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#61#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-todo/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-todo/create_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -991,7 +1049,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/jwt/jwt.go">
+    <entry file="file:///usr/local/Cellar/go/1.5.1/libexec/src/strconv/atoi.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.5.1/libexec/src/net/http/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="172" column="17" selection-start-line="172" selection-start-column="17" selection-end-line="172" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-todo/config.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -999,36 +1073,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/hub/hub.go">
+    <entry file="file:///usr/local/Cellar/go/1.5.1/libexec/src/encoding/json/encode.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="105" column="19" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="19" />
+          <caret line="269" column="31" selection-start-line="269" selection-start-column="31" selection-end-line="269" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/hjr265/tonesa/ui/router.go">
+    <entry file="file:///usr/local/Cellar/go/1.5.1/libexec/src/reflect/value.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <caret line="130" column="5" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/etc/tonesa/cmd/tonesad/main.go">
+    <entry file="file:///usr/local/Cellar/go/1.5.1/libexec/src/net/http/response.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="60" selection-end-column="5" />
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-todo/cmd/todo/todo_cli.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#14#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-todo/cmd/server/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-todo/service/service.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#17#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/gin-gonic/gin/context.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="259" column="1" selection-start-line="259" selection-start-column="1" selection-end-line="259" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/auth_controller.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5401662">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-todo/api/error.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-todo/client/helper.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+          <folding>
+            <element signature="e#16#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-todo/client/todo_client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="e#16#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/jinzhu/gorm/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-todo/service/todo_resource.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding>
+            <element signature="e#17#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-todo/api/patch.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-todo/api/todo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36144578">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>

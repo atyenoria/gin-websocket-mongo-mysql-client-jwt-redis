@@ -30,6 +30,10 @@ func index(c *gin.Context) {
 	c.Redirect(301, "/room/hn")
 }
 
+func test(c *gin.Context) {
+	c.HTML(200, "room_login.templ.html", gin.H{})
+}
+
 func roomGET(c *gin.Context) {
 	roomid := c.Param("roomid")
 	nick := c.Query("nick")

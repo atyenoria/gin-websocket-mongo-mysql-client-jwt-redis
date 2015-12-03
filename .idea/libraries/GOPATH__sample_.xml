@@ -4,6 +4,7 @@
       <root url="file://$PROJECT_DIR$/../labix.org" />
       <root url="file://$PROJECT_DIR$/../9fans.net" />
       <root url="file://$PROJECT_DIR$/../.idea" />
+      <root url="file://$PROJECT_DIR$/../.DS_Store" />
       <root url="file://$PROJECT_DIR$/../gopkg.in" />
       <root url="file://$PROJECT_DIR$/../github.com" />
       <root url="file://$PROJECT_DIR$/../golang.org" />
@@ -33,6 +34,7 @@
       <root url="file://$PROJECT_DIR$/../github.com/martini-contrib/render/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/gocql/gocql/testdata" />
       <root url="file://$PROJECT_DIR$/../github.com/gorilla/context/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/codegangsta/negroni/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/AdRoll/goamz/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/tylerb/graceful/.git" />
       <root url="file://$PROJECT_DIR$" />
@@ -42,6 +44,7 @@
       <root url="file://$PROJECT_DIR$/../golang.org/x/net/html/charset/testdata" />
       <root url="file://$PROJECT_DIR$/../golang.org/x/crypto/ssh/testdata" />
       <root url="file://$PROJECT_DIR$/../golang.org/x/tools/go/types/testdata" />
+      <root url="file://$PROJECT_DIR$/../code.google.com/p/go-uuid/.hg" />
       <root url="file://$PROJECT_DIR$/../code.google.com/p/go.crypto/ssh/testdata" />
       <root url="file://$PROJECT_DIR$/../golang.org/x/net/http2/testdata" />
       <root url="file://$PROJECT_DIR$/../github.com/dgrijalva/jwt-go/.git" />
@@ -63,6 +66,7 @@
       <root url="file://$PROJECT_DIR$/../github.com/youtube/vitess/vitess.io/_templates" />
       <root url="file://$PROJECT_DIR$/../gopkg.in/bluesuncorp/validator.v5/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/youtube/vitess/vitess.io/_includes" />
+      <root url="file://$PROJECT_DIR$/../gopkg.in/yaml.v1/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/nsf/gocode/.git" />
       <root url="file://$PROJECT_DIR$/../golang.org/x/tools/go/loader/testdata" />
       <root url="file://$PROJECT_DIR$/../github.com/thoas/stats/.git" />
@@ -109,10 +113,12 @@
       <root url="file://$PROJECT_DIR$/../github.com/inconshreveable/mousetrap/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/mattn/go-sqlite3/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/blevesearch/go-porterstemmer/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/qor/inflection/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/go-martini/martini/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/go-sql-driver/mysql/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/robfig/config/testdata" />
       <root url="file://$PROJECT_DIR$/../github.com/hjr265/tonesa/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/jinzhu/gorm/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/robfig/config/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/peterh/liner/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/Sirupsen/logrus/.git" />
@@ -121,6 +127,7 @@
       <root url="file://$PROJECT_DIR$/../github.com/mattn/go-colorable/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/spf13/cobra/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/mattn/go-colorable/_example" />
+      <root url="file://$PROJECT_DIR$/../github.com/benschw/go-todo/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/cenkalti/backoff/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/revel/cmd/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/robfig/pathtree/.git" />

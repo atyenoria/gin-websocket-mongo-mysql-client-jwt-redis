@@ -1,0 +1,5 @@
+{
+  "PrivateKeyPath": "/Users/jima/go/third-party/src/sample/settings/keys/private_key",
+  "PublicKeyPath": "/Users/jima/go/third-party/src/sample/settings/keys/public_key.pub",
+  "JWTExpirationDelta": 72
+}
